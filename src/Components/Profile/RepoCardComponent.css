@@ -1,0 +1,27 @@
+.Card{
+    background-color: rgba(235, 228, 226, 0.589);
+    border-radius: 0.2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    word-break: break-word;
+    cursor: pointer;
+    margin:0.3rem;
+}
+.githubLogo{
+    width: 4rem;
+    height: 4rem;
+}
+#fav{
+    background-color: rgba(245, 37, 0, 0.707);
+}
+#title{
+    font-size: 1rem;
+}

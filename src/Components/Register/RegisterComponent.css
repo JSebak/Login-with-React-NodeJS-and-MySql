@@ -1,0 +1,76 @@
+.ErrorSummary{
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 69%, 11%, 0.455);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.3rem;
+    width: 40%;
+    list-style: none;
+}
+.Register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Regcontainer{
+    background: radial-gradient(circle, rgba(240,0,0,1) 0%, rgba(101,20,20,1) 63%, rgba(79,2,2,1) 100%);
+    z-index: -1;
+    height: 47.1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.field{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3em;
+    background-color: hsla(0, 92%, 39%, 0.68);
+    height: 14%;
+    align-items: center;
+    width: 40%;
+}
+
+input{
+height: 2rem;
+border-radius: 0.3rem;
+border:none;
+width: 100%;
+}
+label{
+    color: white;
+    font-weight: 400;
+}
+button{
+    border-radius: 0.3rem;
+    height: 1.7rem;
+    border:none;
+    cursor: pointer;
+    color: white;
+}
+h1{
+    color: white;
+    text-shadow: #474747 3px 5px 2px;
+    width: 75%;
+    text-align: center;
+}
+
+#register{
+    background-color: hsl(9, 100%, 57%);
+}
+#back{
+    background-color: #474747;
+}
+hr{
+    width: 90%;
+    border-width: 0.05rem;
+}
+button{
+    margin: 1rem;
+}
